@@ -152,12 +152,12 @@ h3 {
 #cta {
     background-color: #ff4c68;
     text-align: center;
-    padding: 100px 150px;
+    padding: 150px 200px;
 }
 
-.cta-div {
+/* .cta-div {
     margin: 0 200px;
-}
+} */
 
 .cta-div > h3 {
     font-size: 4rem;
@@ -198,7 +198,15 @@ h3 {
         text-align: center;
     }
 
+    #cta {
+        background-color: #ff4c68;
+        text-align: center;
+        padding: 50px;
+    }
+    
+
 }
+
 
 
 
