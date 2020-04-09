@@ -5,11 +5,11 @@ body {
 #title {
     background-color: #ff4c68;
     color: #fff;
-    height: 90vh;
+    /* height: 90vh; */
 }
 
 .title-box {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
     position: relative;
 }
 
@@ -60,6 +60,7 @@ h2 {
     width: 60%;
     transform: rotate(25deg);
     position: absolute;
+    right: 30%;
 }
 
 
@@ -146,8 +147,58 @@ h3 {
     color: white;
 }
 
+/* CALL TO ACTION */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 100px 150px;
+}
+
+.cta-div {
+    margin: 0 200px;
+}
+
+.cta-div > h3 {
+    font-size: 4rem;
+    color: #fff;
+}
 
 
+/* FOOTER */
+#footer {
+    text-align: center;
+    padding: 100px;
+}
+
+#footer > p {
+    color: #8f8f8f;
+}
+
+.contact-icon {
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1027px) {
+    .title-image {
+        width: 60%;
+        transform: rotate(0deg);
+        position: static;
+        /* right: 30%; */
+    }
+
+    .hero-banner {
+        text-align: center;
+    }
+
+}
 
 
 
